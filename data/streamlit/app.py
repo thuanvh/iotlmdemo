@@ -46,6 +46,7 @@ if uploaded_file is not None:
     def conversational_chat(query):
         print(query)
         result = chain({'question':query, 'chat_history':st.session_state['history']})
+        print(result)
         st.session_state['history'].append((query,result['answer']))
         return result['answer']
     
