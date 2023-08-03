@@ -33,7 +33,7 @@ class MyEncoder(json.JSONEncoder):
 # with jsonlines.open('output.jsonl', mode='w') as writer:
 print(len(data_df))
 with open('output.csv', mode='w') as writer:
-    writer.write("id,volt,rotate,pressure,vibration,model,age,anomaly,failure_comp1,failure_comp2,failure_comp3,failure_comp4,maint_comp1,maint_comp2,maint_comp3,maint_comp4,error1,error2,error3,error4,error5,failure,maint,error\n")
+    writer.write("id,volt,rotate,pressure,vibration,age,anomaly,failure_comp1,failure_comp2,failure_comp3,failure_comp4,maint_comp1,maint_comp2,maint_comp3,maint_comp4,error1,error2,error3,error4,error5,failure,maint,error\n")
     for i in range(len(data_df)) :
 
         # print(type(data_df.loc[i, "volt"]))
