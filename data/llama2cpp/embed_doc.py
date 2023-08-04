@@ -11,7 +11,7 @@ from langchain.document_loaders.csv_loader import CSVLoader
 
 
 DB_FAISS_PATH = 'vectorstore/db_faiss_cpp'
-MODEL_PATH ="../../../model/llama-2-7b-chat.ggmlv3.q4_0.bin"
+MODEL_PATH ="../model/llama-2-7b-chat.ggmlv3.q4_0.bin"
 
 # Callbacks support token-wise streaming
 # callback_manager = CallbackManager([StreamingStdOutCallbackHandler()])
