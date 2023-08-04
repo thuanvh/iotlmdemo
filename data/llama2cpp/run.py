@@ -15,7 +15,7 @@ callback_manager = CallbackManager([StreamingStdOutCallbackHandler()])
 
 # Make sure the model path is correct for your system!
 llm = LlamaCpp(
-    model_path="../../../model/llama-2-7b-chat.ggmlv3.q4_0.bin",
+    model_path="../model/llama-2-7b-chat.ggmlv3.q4_0.bin",
     input={"temperature": 0.75, "max_length": 2000, "top_p": 1},
     callback_manager=callback_manager,
     verbose=True,
