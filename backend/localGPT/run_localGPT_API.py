@@ -4,7 +4,7 @@ import shutil
 import subprocess
 
 import torch
-from auto_gptq import AutoGPTQForCausalLM
+#from auto_gptq import AutoGPTQForCausalLM
 from flask import Flask, jsonify, request
 from langchain.chains import RetrievalQA
 #from langchain.embeddings import HuggingFaceInstructEmbeddings
