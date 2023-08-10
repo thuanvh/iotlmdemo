@@ -6,5 +6,7 @@ services:
     # flask requires SIGINT to stop gracefully
     # (default stop signal from Compose is SIGTERM)
     stop_signal: SIGINT
+    volumes:
+      - ./DB:/app/DB
     ports:
       - '5110:5110'
