@@ -2,7 +2,7 @@ import logging
 
 import click
 import torch
-from auto_gptq import AutoGPTQForCausalLM
+# from auto_gptq import AutoGPTQForCausalLM
 from huggingface_hub import hf_hub_download
 from langchain.chains import RetrievalQA
 # from langchain.embeddings import HuggingFaceInstructEmbeddings
@@ -63,27 +63,27 @@ def load_model(device_type, model_id, model_basename=None):
                 kwargs["n_batch"] = max_ctx_size
             return LlamaCpp(**kwargs)
 
-        else:
-            # The code supports all huggingface models that ends with GPTQ and have some variation
-            # of .no-act.order or .safetensors in their HF repo.
-            logging.info("Using AutoGPTQForCausalLM for quantized models")
+        # else:
+        #     # The code supports all huggingface models that ends with GPTQ and have some variation
+        #     # of .no-act.order or .safetensors in their HF repo.
+        #     logging.info("Using AutoGPTQForCausalLM for quantized models")
 
-            if ".safetensors" in model_basename:
-                # Remove the ".safetensors" ending if present
-                model_basename = model_basename.replace(".safetensors", "")
+        #     if ".safetensors" in model_basename:
+        #         # Remove the ".safetensors" ending if present
+        #         model_basename = model_basename.replace(".safetensors", "")
 
-            tokenizer = AutoTokenizer.from_pretrained(model_id, use_fast=True)
-            logging.info("Tokenizer loaded")
+        #     tokenizer = AutoTokenizer.from_pretrained(model_id, use_fast=True)
+        #     logging.info("Tokenizer loaded")
 
-            model = AutoGPTQForCausalLM.from_quantized(
-                model_id,
-                model_basename=model_basename,
-                use_safetensors=True,
-                trust_remote_code=True,
-                device="cuda:0",
-                use_triton=False,
-                quantize_config=None,
-            )
+        #     model = AutoGPTQForCausalLM.from_quantized(
+        #         model_id,
+        #         model_basename=model_basename,
+        #         use_safetensors=True,
+        #         trust_remote_code=True,
+        #         device="cuda:0",
+        #         use_triton=False,
+        #         quantize_config=None,
+        #     )
     elif (
         device_type.lower() == "cuda"
     ):  # The code supports all huggingface models that ends with -HF or which have a .bin

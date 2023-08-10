@@ -2,3 +2,4 @@ pandas
 pyarrow
 seaborn
 jsonlines
+ydata-profiling
