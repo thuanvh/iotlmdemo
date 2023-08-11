@@ -24,4 +24,13 @@ llm = LlamaCpp(
 prompt = """
 Question: A rap battle between Stephen Colbert and John Oliver
 """
+print(prompt)
 llm(prompt)
+while True:
+    question = input("Question:")
+    prompt = """
+Question: {}
+"""
+    prompt = prompt.format(question)
+    print(prompt)
+    llm(prompt)
