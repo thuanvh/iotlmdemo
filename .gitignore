@@ -3,3 +3,4 @@ output/
 DB/
 SOURCE_DOCUMENTS/
 .venv/
+__pycache__/
