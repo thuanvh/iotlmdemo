@@ -2,7 +2,7 @@ import logging
 import os
 import shutil
 import subprocess
-
+import argparse
 import torch
 #from auto_gptq import AutoGPTQForCausalLM
 from flask import Flask, jsonify, request
@@ -223,7 +223,17 @@ Question: {}
         return "No user prompt received", 400
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+                        prog='ProgramName',
+                        description='What the program does',
+                        epilog='Text at the bottom of help')
+
+    parser.add_argument('--port', type=int, default=5110)           
+     
+
+    args = parser.parse_args()
+    
     logging.basicConfig(
         format="%(asctime)s - %(levelname)s - %(filename)s:%(lineno)s - %(message)s", level=logging.INFO
     )
-    app.run(debug=False, port=5110, host="0.0.0.0")
+    app.run(debug=False, port=args.port, host="0.0.0.0")
