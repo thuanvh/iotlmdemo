@@ -2,3 +2,4 @@
 output/
 DB/
 SOURCE_DOCUMENTS/
+.venv/
