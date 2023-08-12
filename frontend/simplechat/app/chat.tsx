@@ -12,7 +12,7 @@ const Chat = () => {
     {
       from: "computer",
       text:
-        "Nice to meet you. You can send me message"
+        "Nice to meet you.\nYou can send me message"
     }
   ]);
   const [inputMessage, setInputMessage] = useState("");
@@ -32,12 +32,12 @@ const Chat = () => {
     })
     .then((data) => {
       let answer = data.Answer;
-      setMessages((old) => [...old, { from: "computer", text: data }]);
+      setMessages((old) => [...old, { from: "computer", text: answer }]);
       
       
     })
     setTimeout(() => {
-      setMessages((old) => [...old, { from: "computer", text: "Time out" }]);
+      setMessages((old) => [...old, { from: "computer", text: "Sorry. Time out" }]);
     }, 600000);
   };
 

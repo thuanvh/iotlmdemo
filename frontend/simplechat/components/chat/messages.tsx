@@ -42,7 +42,7 @@ const Messages = ({ messages }:any) => {
                 my="1"
                 p="3"
               >
-                <Text>{item.text}</Text>
+                <Text whiteSpace={"pre-line"} >{item.text}</Text>
               </Flex>
             </Flex>
           );
