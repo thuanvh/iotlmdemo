@@ -10,6 +10,10 @@ RUN --mount=type=cache,target=/root/.cache/pip \
 
 RUN apt-get install python-is-python3
 
+COPY requirements.txt /app
+RUN --mount=type=cache,target=/root/.cache/pip \
+    pip3 install -r requirements.txt
+
 FROM builder as deploy
 COPY . /app
 
