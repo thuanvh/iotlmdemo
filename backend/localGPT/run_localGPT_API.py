@@ -192,6 +192,36 @@ def prompt_route():
         return "No user prompt received", 400
 
 
+@app.route("/api/chat", methods=["GET", "POST"])
+def chat():
+    global LLM
+    user_prompt = request.args.get("q")
+    if user_prompt:
+        print(f'User Prompt: {user_prompt}')
+        # Get the answer from the chain
+        prompt = """
+Question: {}
+"""
+        prompt = prompt.format(user_prompt)
+        res = LLM(prompt)
+        print(f'Result:{res}')
+        #answer, docs = res["result"], res["source_documents"]
+
+        prompt_response_dict = {
+            "Prompt": user_prompt,
+            "Answer": res,
+        }
+
+        # prompt_response_dict["Sources"] = []
+        # for document in docs:
+        #     prompt_response_dict["Sources"].append(
+        #         (os.path.basename(str(document.metadata["source"])), str(document.page_content))
+        #     )
+
+        return jsonify(prompt_response_dict), 200
+    else:
+        return "No user prompt received", 400
+
 if __name__ == "__main__":
     logging.basicConfig(
         format="%(asctime)s - %(levelname)s - %(filename)s:%(lineno)s - %(message)s", level=logging.INFO
