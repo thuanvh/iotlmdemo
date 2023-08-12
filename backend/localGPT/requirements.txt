@@ -21,6 +21,7 @@ accelerate
 bitsandbytes
 click
 flask
+flask_cors
 requests
 
 # Excel File Manipulation
