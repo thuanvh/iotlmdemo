@@ -96,6 +96,7 @@ QA = RetrievalQA.from_chain_type(
 )
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/ping')
 def ping():
