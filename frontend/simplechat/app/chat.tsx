@@ -36,9 +36,9 @@ const Chat = () => {
       
       
     })
-    setTimeout(() => {
-      setMessages((old) => [...old, { from: "computer", text: "Sorry. Time out" }]);
-    }, 600000);
+    // setTimeout(() => {
+    //   setMessages((old) => [...old, { from: "computer", text: "Sorry. Time out" }]);
+    // }, 600000);
   };
 
   return (
