@@ -1,8 +1,10 @@
 from bs4 import BeautifulSoup
- 
+
+filename = "your_report.html"
+with open(filename, 'r') as f:
+    text = f.read()
 # Initializing variable
-gfg = BeautifulSoup("<b>Section </b><br/>BeautifulSoup<ul>\
-<li>Example <b>1</b></li>")
+gfg = BeautifulSoup(text)
  
 # Calculating result
 res = gfg.get_text()
