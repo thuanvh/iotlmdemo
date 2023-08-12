@@ -3,6 +3,7 @@ FROM --platform=$BUILDPLATFORM ubuntu:22.04 AS builder
 
 WORKDIR /app
 RUN apt-get update && apt-get install -y python3 python3-pip build-essential libopenblas-dev
+
 COPY requirements.txt /app
 RUN --mount=type=cache,target=/root/.cache/pip \
     pip3 install -r requirements.txt

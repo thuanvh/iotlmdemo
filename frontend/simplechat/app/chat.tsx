@@ -25,10 +25,20 @@ const Chat = () => {
 
     setMessages((old) => [...old, { from: "me", text: data }]);
     setInputMessage("");
-
-    setTimeout(() => {
+    let url = "http://103.47.195.197:5110/api/chat?q=" + data;
+    fetch(url)
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      let answer = data.Answer;
       setMessages((old) => [...old, { from: "computer", text: data }]);
-    }, 1000);
+      
+      
+    })
+    setTimeout(() => {
+      setMessages((old) => [...old, { from: "computer", text: "Time out" }]);
+    }, 600000);
   };
 
   return (
