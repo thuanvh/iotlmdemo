@@ -19,6 +19,8 @@ from constants import (
     SOURCE_DIRECTORY,
 )
 
+CHUNK_SIZE = 200
+CHUNK_OVERLAP = 50
 
 def load_single_document(file_path: str) -> Document:
     # Loads a single document from a file path
@@ -122,9 +124,9 @@ def main(device_type):
     logging.info(f"Loading documents from {SOURCE_DIRECTORY}")
     documents = load_documents(SOURCE_DIRECTORY)
     text_documents, python_documents = split_documents(documents)
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=CHUNK_SIZE, chunk_overlap=CHUNK_OVERLAP)    
     python_splitter = RecursiveCharacterTextSplitter.from_language(
-        language=Language.PYTHON, chunk_size=1000, chunk_overlap=200
+        language=Language.PYTHON, chunk_size=CHUNK_SIZE, chunk_overlap=CHUNK_OVERLAP
     )
     texts = text_splitter.split_documents(text_documents)
     texts.extend(python_splitter.split_documents(python_documents))
