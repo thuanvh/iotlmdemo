@@ -1,0 +1,830 @@
+Description of the data column datetime:
+count                 876100
+mean     2015-07-02 18:00:00
+min      2015-01-01 06:00:00
+25%      2015-04-02 12:00:00
+50%      2015-07-02 18:00:00
+75%      2015-10-02 00:00:00
+max      2016-01-01 06:00:00
+Name: datetime, dtype: object
+The correlation between two columns datetime and datetime is 1.0
+The correlation between two columns datetime and machineID is -5.977124865831762e-18
+The correlation between two columns datetime and volt is -0.0023826175861959877
+The correlation between two columns datetime and rotate is -0.0013287861967063194
+The correlation between two columns datetime and pressure is 0.004251216941527403
+The correlation between two columns datetime and vibration is 3.4581020735071944e-05
+The correlation between two columns datetime and age is 6.053500395827355e-17
+The correlation between two columns datetime and anomaly is -0.001892461936430887
+The correlation between two columns datetime and failure_comp1 is -0.0029095669543922373
+The correlation between two columns datetime and failure_comp2 is 0.00029683958780597395
+The correlation between two columns datetime and failure_comp3 is -0.0010540701400695413
+The correlation between two columns datetime and failure_comp4 is -0.001195051084428124
+The correlation between two columns datetime and maint_comp1 is 0.0008925785865048077
+The correlation between two columns datetime and maint_comp2 is 0.000980597671029076
+The correlation between two columns datetime and maint_comp3 is 0.0014019805758004715
+The correlation between two columns datetime and maint_comp4 is 0.00036459017540409455
+The correlation between two columns datetime and error1 is -0.0024904815055439354
+The correlation between two columns datetime and error2 is 0.0014738895670135573
+The correlation between two columns datetime and error3 is -0.0010413137202982226
+The correlation between two columns datetime and error4 is 0.0010772104391886291
+The correlation between two columns datetime and error5 is -0.0015754997139242122
+The correlation between two columns datetime and failure is -0.00224896500723813
+The correlation between two columns datetime and maint is 0.0014910628056145772
+The correlation between two columns datetime and error is -0.0010703191244968973
+
+Description of the data column machineID:
+count    876100.000000
+mean         50.500000
+std          28.866087
+min           1.000000
+25%          25.750000
+50%          50.500000
+75%          75.250000
+max         100.000000
+Name: machineID, dtype: float64
+The correlation between two columns machineID and datetime is -5.977124865831761e-18
+The correlation between two columns machineID and machineID is 1.0
+The correlation between two columns machineID and volt is -0.0010368937867006704
+The correlation between two columns machineID and rotate is 0.00017121529235423254
+The correlation between two columns machineID and pressure is 0.005191657147891094
+The correlation between two columns machineID and vibration is -0.0009224186851475247
+The correlation between two columns machineID and age is 0.1001959624662399
+The correlation between two columns machineID and anomaly is 0.002026593045182154
+The correlation between two columns machineID and failure_comp1 is 5.342720729515044e-06
+The correlation between two columns machineID and failure_comp2 is 0.0001759589072170331
+The correlation between two columns machineID and failure_comp3 is 0.0028248489602744754
+The correlation between two columns machineID and failure_comp4 is 0.00033891394813001757
+The correlation between two columns machineID and maint_comp1 is 0.0006893673006046386
+The correlation between two columns machineID and maint_comp2 is -0.0008867317833317772
+The correlation between two columns machineID and maint_comp3 is 0.0008112654450059078
+The correlation between two columns machineID and maint_comp4 is -0.001561480106862034
+The correlation between two columns machineID and error1 is 0.001013781925593839
+The correlation between two columns machineID and error2 is -0.0004500548123319165
+The correlation between two columns machineID and error3 is 0.0010130863742394776
+The correlation between two columns machineID and error4 is 0.0008575925558436076
+The correlation between two columns machineID and error5 is 0.0004512597418424522
+The correlation between two columns machineID and failure is 0.001835852043534626
+The correlation between two columns machineID and maint is 5.936087426587821e-05
+The correlation between two columns machineID and error is 0.0013809357910869896
+
+Description of the data column volt:
+count    876100.000000
+mean        170.777736
+std          15.509114
+min          97.333604
+25%         160.304927
+50%         170.607338
+75%         181.004493
+max         255.124717
+Name: volt, dtype: float64
+The correlation between two columns volt and datetime is -0.002382617586195988
+The correlation between two columns volt and machineID is -0.0010368937867006706
+The correlation between two columns volt and volt is 1.0
+The correlation between two columns volt and rotate is -0.0015105847511460292
+The correlation between two columns volt and pressure is 0.0016516904542928166
+The correlation between two columns volt and vibration is 0.0023902962555202834
+The correlation between two columns volt and age is -0.000666769692064783
+The correlation between two columns volt and anomaly is 0.008704849414497692
+The correlation between two columns volt and failure_comp1 is 0.018518289527575168
+The correlation between two columns volt and failure_comp2 is -0.0016669054515361667
+The correlation between two columns volt and failure_comp3 is 0.0015105915828511293
+The correlation between two columns volt and failure_comp4 is 6.144342813791755e-05
+The correlation between two columns volt and maint_comp1 is 0.009170169734397729
+The correlation between two columns volt and maint_comp2 is -0.0009729627409989928
+The correlation between two columns volt and maint_comp3 is 0.0014884823596759565
+The correlation between two columns volt and maint_comp4 is 0.0019081844787818697
+The correlation between two columns volt and error1 is 0.008499326399207625
+The correlation between two columns volt and error2 is 0.0007184375819248968
+The correlation between two columns volt and error3 is 0.001997438645239526
+The correlation between two columns volt and error4 is 0.0007107557988875972
+The correlation between two columns volt and error5 is 0.0015730296608261632
+The correlation between two columns volt and failure is 0.008613176490006131
+The correlation between two columns volt and maint is 0.004369162035701104
+The correlation between two columns volt and error is 0.005720981477998828
+
+Description of the data column rotate:
+count    876100.000000
+mean        446.605119
+std          52.673886
+min         138.432075
+25%         412.305714
+50%         447.558150
+75%         482.176600
+max         695.020984
+Name: rotate, dtype: float64
+The correlation between two columns rotate and datetime is -0.0013287861967063192
+The correlation between two columns rotate and machineID is 0.00017121529235423254
+The correlation between two columns rotate and volt is -0.001510584751146029
+The correlation between two columns rotate and rotate is 0.9999999999999999
+The correlation between two columns rotate and pressure is -0.0006880123615198158
+The correlation between two columns rotate and vibration is -0.0030562195125757425
+The correlation between two columns rotate and age is -0.0009754404018176796
+The correlation between two columns rotate and anomaly is -0.013055942535588934
+The correlation between two columns rotate and failure_comp1 is 0.0009898897471361245
+The correlation between two columns rotate and failure_comp2 is -0.02454801607694417
+The correlation between two columns rotate and failure_comp3 is -0.00028854373717633223
+The correlation between two columns rotate and failure_comp4 is -0.0008375299961438258
+The correlation between two columns rotate and maint_comp1 is 0.0008069841910259924
+The correlation between two columns rotate and maint_comp2 is -0.0129540097267198
+The correlation between two columns rotate and maint_comp3 is 0.00016166843467090613
+The correlation between two columns rotate and maint_comp4 is -0.002363776118937262
+The correlation between two columns rotate and error1 is -0.0018217027023597343
+The correlation between two columns rotate and error2 is -0.011124115549965789
+The correlation between two columns rotate and error3 is -0.014715960538220236
+The correlation between two columns rotate and error4 is -0.0013156658431563459
+The correlation between two columns rotate and error5 is -0.003387349161200138
+The correlation between two columns rotate and failure is -0.013351489932659152
+The correlation between two columns rotate and maint is -0.006171409038495683
+The correlation between two columns rotate and error is -0.008399454197750534
+
+Description of the data column pressure:
+count    876100.000000
+mean        100.858668
+std          11.048679
+min          51.237106
+25%          93.498181
+50%         100.425559
+75%         107.555231
+max         185.951998
+Name: pressure, dtype: float64
+The correlation between two columns pressure and datetime is 0.004251216941527402
+The correlation between two columns pressure and machineID is 0.005191657147891095
+The correlation between two columns pressure and volt is 0.0016516904542928168
+The correlation between two columns pressure and rotate is -0.0006880123615198158
+The correlation between two columns pressure and pressure is 0.9999999999999999
+The correlation between two columns pressure and vibration is 0.0013949969132537373
+The correlation between two columns pressure and age is 0.003807222280784586
+The correlation between two columns pressure and anomaly is 0.009105809656365945
+The correlation between two columns pressure and failure_comp1 is -0.00017941176460091476
+The correlation between two columns pressure and failure_comp2 is 0.00018769170070298297
+The correlation between two columns pressure and failure_comp3 is 0.0274646195472359
+The correlation between two columns pressure and failure_comp4 is 0.0027292713375980044
+The correlation between two columns pressure and maint_comp1 is 0.002260899040230769
+The correlation between two columns pressure and maint_comp2 is 0.0019070759647419988
+The correlation between two columns pressure and maint_comp3 is 0.010990142283192686
+The correlation between two columns pressure and maint_comp4 is 0.0019392954434029146
+The correlation between two columns pressure and error1 is 0.00086888446718432
+The correlation between two columns pressure and error2 is -0.00016267378814907859
+The correlation between two columns pressure and error3 is 0.00043365385711550703
+The correlation between two columns pressure and error4 is 0.010581647404812529
+The correlation between two columns pressure and error5 is -0.0002447124889610761
+The correlation between two columns pressure and failure is 0.011829882843132513
+The correlation between two columns pressure and maint is 0.006958674451874067
+The correlation between two columns pressure and error is 0.004702262314663216
+
+Description of the data column vibration:
+count    876100.000000
+mean         40.385007
+std           5.370361
+min          14.877054
+25%          36.777299
+50%          40.237247
+75%          43.784938
+max          76.791072
+Name: vibration, dtype: float64
+The correlation between two columns vibration and datetime is 3.4581020735071944e-05
+The correlation between two columns vibration and machineID is -0.0009224186851475247
+The correlation between two columns vibration and volt is 0.0023902962555202834
+The correlation between two columns vibration and rotate is -0.0030562195125757425
+The correlation between two columns vibration and pressure is 0.0013949969132537375
+The correlation between two columns vibration and vibration is 0.9999999999999999
+The correlation between two columns vibration and age is 0.017347228547464833
+The correlation between two columns vibration and anomaly is 0.009885497659274942
+The correlation between two columns vibration and failure_comp1 is 0.0026321312627826084
+The correlation between two columns vibration and failure_comp2 is 0.00167568569556839
+The correlation between two columns vibration and failure_comp3 is 0.000579203048547667
+The correlation between two columns vibration and failure_comp4 is 0.0263508010383799
+The correlation between two columns vibration and maint_comp1 is 0.0030306899571075226
+The correlation between two columns vibration and maint_comp2 is 0.000658970967165566
+The correlation between two columns vibration and maint_comp3 is -3.2891281935555372e-06
+The correlation between two columns vibration and maint_comp4 is 0.012578727532249322
+The correlation between two columns vibration and error1 is 9.500923944617847e-05
+The correlation between two columns vibration and error2 is -0.0012529491778675368
+The correlation between two columns vibration and error3 is 0.0007654892237796679
+The correlation between two columns vibration and error4 is -0.00034442119767579964
+The correlation between two columns vibration and error5 is 0.01828508587339317
+The correlation between two columns vibration and failure is 0.014327810615974835
+The correlation between two columns vibration and maint is 0.006701336207537354
+The correlation between two columns vibration and error is 0.004467817157623413
+
+Description of the data column model:
+count     876100
+unique         4
+top       model3
+freq      306635
+Name: model, dtype: object
+
+Description of the data column age:
+count    876100.000000
+mean         11.330000
+std           5.827619
+min           0.000000
+25%           6.750000
+50%          12.000000
+75%          16.000000
+max          20.000000
+Name: age, dtype: float64
+The correlation between two columns age and datetime is 6.053500395827355e-17
+The correlation between two columns age and machineID is 0.10019596246623991
+The correlation between two columns age and volt is -0.000666769692064783
+The correlation between two columns age and rotate is -0.0009754404018176797
+The correlation between two columns age and pressure is 0.0038072222807845864
+The correlation between two columns age and vibration is 0.017347228547464833
+The correlation between two columns age and age is 0.9999999999999999
+The correlation between two columns age and anomaly is 0.0035139611374288855
+The correlation between two columns age and failure_comp1 is -9.738836599931679e-05
+The correlation between two columns age and failure_comp2 is -0.0006091956477526505
+The correlation between two columns age and failure_comp3 is 0.0017904176903814004
+The correlation between two columns age and failure_comp4 is 0.012634209912692726
+The correlation between two columns age and maint_comp1 is 0.0008203478701027916
+The correlation between two columns age and maint_comp2 is 0.0007052200033692597
+The correlation between two columns age and maint_comp3 is 0.00013344323540718028
+The correlation between two columns age and maint_comp4 is -0.0007265425646413939
+The correlation between two columns age and error1 is -0.0036034243855611837
+The correlation between two columns age and error2 is 0.0006825527070568189
+The correlation between two columns age and error3 is -0.0004596165206530395
+The correlation between two columns age and error4 is 0.0008848899453315645
+The correlation between two columns age and error5 is 0.00851838709496048
+The correlation between two columns age and failure is 0.006071933676995228
+The correlation between two columns age and maint is 0.0004981206767422826
+The correlation between two columns age and error is 0.0011356175814092842
+
+Description of the data column anomaly:
+count     876100
+unique         2
+top        False
+freq      871768
+Name: anomaly, dtype: object
+The correlation between two columns anomaly and datetime is -0.001892461936430887
+The correlation between two columns anomaly and machineID is 0.002026593045182154
+The correlation between two columns anomaly and volt is 0.00870484941449769
+The correlation between two columns anomaly and rotate is -0.013055942535588932
+The correlation between two columns anomaly and pressure is 0.009105809656365945
+The correlation between two columns anomaly and vibration is 0.009885497659274942
+The correlation between two columns anomaly and age is 0.003513961137428885
+The correlation between two columns anomaly and anomaly is 0.9999999999999998
+The correlation between two columns anomaly and failure_comp1 is 0.21002819768053563
+The correlation between two columns anomaly and failure_comp2 is 0.24394587787394353
+The correlation between two columns anomaly and failure_comp3 is 0.1734792424484987
+The correlation between two columns anomaly and failure_comp4 is 0.20279175041519093
+The correlation between two columns anomaly and maint_comp1 is 0.14271838939162054
+The correlation between two columns anomaly and maint_comp2 is 0.17168671159612992
+The correlation between two columns anomaly and maint_comp3 is 0.11596164791991762
+The correlation between two columns anomaly and maint_comp4 is 0.14370922037975853
+The correlation between two columns anomaly and error1 is 0.481937326441194
+The correlation between two columns anomaly and error2 is 0.476653614214687
+The correlation between two columns anomaly and error3 is 0.43894409417290964
+The correlation between two columns anomaly and error4 is 0.4088150444896872
+The correlation between two columns anomaly and error5 is 0.2860175297254883
+The correlation between two columns anomaly and failure is 0.40655763824440805
+The correlation between two columns anomaly and maint is 0.2283179330882328
+The correlation between two columns anomaly and error is 0.9132542729557362
+
+Description of the data column failure_comp1:
+count    876100.000000
+mean          0.000219
+std           0.014802
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+max           1.000000
+Name: failure_comp1, dtype: float64
+The correlation between two columns failure_comp1 and datetime is -0.0029095669543922373
+The correlation between two columns failure_comp1 and machineID is 5.342720729515044e-06
+The correlation between two columns failure_comp1 and volt is 0.018518289527575168
+The correlation between two columns failure_comp1 and rotate is 0.0009898897471361243
+The correlation between two columns failure_comp1 and pressure is -0.0001794117646009148
+The correlation between two columns failure_comp1 and vibration is 0.002632131262782608
+The correlation between two columns failure_comp1 and age is -9.738836599931677e-05
+The correlation between two columns failure_comp1 and anomaly is 0.21002819768053563
+The correlation between two columns failure_comp1 and failure_comp1 is 1.0
+The correlation between two columns failure_comp1 and failure_comp2 is 0.040114940835902814
+The correlation between two columns failure_comp1 and failure_comp3 is 0.031351836416032
+The correlation between two columns failure_comp1 and failure_comp4 is 0.032160094487057714
+The correlation between two columns failure_comp1 and maint_comp1 is 0.49758811782451456
+The correlation between two columns failure_comp1 and maint_comp2 is 0.09628496561995363
+The correlation between two columns failure_comp1 and maint_comp3 is 0.07827517238149326
+The correlation between two columns failure_comp1 and maint_comp4 is 0.08893995982123956
+The correlation between two columns failure_comp1 and error1 is 0.0017694246553838573
+The correlation between two columns failure_comp1 and error2 is -0.0004974712885578422
+The correlation between two columns failure_comp1 and error3 is -0.0004581148188560748
+The correlation between two columns failure_comp1 and error4 is -0.0004266698938162449
+The correlation between two columns failure_comp1 and error5 is 0.0035276252806762027
+The correlation between two columns failure_comp1 and failure is 0.5166012833690187
+The correlation between two columns failure_comp1 and maint is 0.2836156333605723
+The correlation between two columns failure_comp1 and error is 0.0014523901812744497
+
+Description of the data column failure_comp2:
+count    876100.000000
+mean          0.000296
+std           0.017191
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+max           1.000000
+Name: failure_comp2, dtype: float64
+The correlation between two columns failure_comp2 and datetime is 0.00029683958780597395
+The correlation between two columns failure_comp2 and machineID is 0.00017595890721703306
+The correlation between two columns failure_comp2 and volt is -0.0016669054515361667
+The correlation between two columns failure_comp2 and rotate is -0.02454801607694417
+The correlation between two columns failure_comp2 and pressure is 0.000187691700702983
+The correlation between two columns failure_comp2 and vibration is 0.00167568569556839
+The correlation between two columns failure_comp2 and age is -0.0006091956477526505
+The correlation between two columns failure_comp2 and anomaly is 0.24394587787394353
+The correlation between two columns failure_comp2 and failure_comp1 is 0.040114940835902814
+The correlation between two columns failure_comp2 and failure_comp2 is 1.0
+The correlation between two columns failure_comp2 and failure_comp3 is 0.021510271177304214
+The correlation between two columns failure_comp2 and failure_comp4 is 0.06479112909837485
+The correlation between two columns failure_comp2 and maint_comp1 is 0.08152305034609969
+The correlation between two columns failure_comp2 and maint_comp2 is 0.5757028578663596
+The correlation between two columns failure_comp2 and maint_comp3 is 0.09297255650768059
+The correlation between two columns failure_comp2 and maint_comp4 is 0.12075360985969595
+The correlation between two columns failure_comp2 and error1 is -0.0005842134787501759
+The correlation between two columns failure_comp2 and error2 is -0.0005778084635516849
+The correlation between two columns failure_comp2 and error3 is 0.0016157347742758045
+The correlation between two columns failure_comp2 and error4 is -0.000495573275202321
+The correlation between two columns failure_comp2 and error5 is -0.00034671582144992576
+The correlation between two columns failure_comp2 and failure is 0.6000277818597647
+The correlation between two columns failure_comp2 and maint is 0.34164624717805997
+The correlation between two columns failure_comp2 and error is -7.144925955517679e-05
+
+Description of the data column failure_comp3:
+count    876100.000000
+mean          0.000150
+std           0.012227
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+max           1.000000
+Name: failure_comp3, dtype: float64
+The correlation between two columns failure_comp3 and datetime is -0.0010540701400695413
+The correlation between two columns failure_comp3 and machineID is 0.002824848960274476
+The correlation between two columns failure_comp3 and volt is 0.0015105915828511293
+The correlation between two columns failure_comp3 and rotate is -0.00028854373717633223
+The correlation between two columns failure_comp3 and pressure is 0.027464619547235898
+The correlation between two columns failure_comp3 and vibration is 0.000579203048547667
+The correlation between two columns failure_comp3 and age is 0.0017904176903814004
+The correlation between two columns failure_comp3 and anomaly is 0.1734792424484987
+The correlation between two columns failure_comp3 and failure_comp1 is 0.031351836416032
+The correlation between two columns failure_comp3 and failure_comp2 is 0.021510271177304214
+The correlation between two columns failure_comp3 and failure_comp3 is 1.0
+The correlation between two columns failure_comp3 and failure_comp4 is 0.02595128748786114
+The correlation between two columns failure_comp3 and maint_comp1 is 0.06554252689511797
+The correlation between two columns failure_comp3 and maint_comp2 is 0.07242557714102968
+The correlation between two columns failure_comp3 and maint_comp3 is 0.4201519453131263
+The correlation between two columns failure_comp3 and maint_comp4 is 0.05210302898333327
+The correlation between two columns failure_comp3 and error1 is -0.0004154565455463539
+The correlation between two columns failure_comp3 and error2 is -0.00041090169430566453
+The correlation between two columns failure_comp3 and error3 is -0.0003783940090294933
+The correlation between two columns failure_comp3 and error4 is -0.0003524211071287152
+The correlation between two columns failure_comp3 and error5 is -0.00024656287933310885
+The correlation between two columns failure_comp3 and failure is 0.4267027012396414
+The correlation between two columns failure_comp3 and maint is 0.24016878642230277
+The correlation between two columns failure_comp3 and error is -0.0007872755327947188
+
+Description of the data column failure_comp4:
+count    876100.000000
+mean          0.000204
+std           0.014292
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+max           1.000000
+Name: failure_comp4, dtype: float64
+The correlation between two columns failure_comp4 and datetime is -0.0011950510844281237
+The correlation between two columns failure_comp4 and machineID is 0.0003389139481300175
+The correlation between two columns failure_comp4 and volt is 6.144342813791755e-05
+The correlation between two columns failure_comp4 and rotate is -0.0008375299961438258
+The correlation between two columns failure_comp4 and pressure is 0.0027292713375980044
+The correlation between two columns failure_comp4 and vibration is 0.0263508010383799
+The correlation between two columns failure_comp4 and age is 0.012634209912692726
+The correlation between two columns failure_comp4 and anomaly is 0.20279175041519093
+The correlation between two columns failure_comp4 and failure_comp1 is 0.03216009448705772
+The correlation between two columns failure_comp4 and failure_comp2 is 0.06479112909837485
+The correlation between two columns failure_comp4 and failure_comp3 is 0.02595128748786114
+The correlation between two columns failure_comp4 and failure_comp4 is 1.0
+The correlation between two columns failure_comp4 and maint_comp1 is 0.08414727829109359
+The correlation between two columns failure_comp4 and maint_comp2 is 0.06996910687131695
+The correlation between two columns failure_comp4 and maint_comp3 is 0.055802572935528504
+The correlation between two columns failure_comp4 and maint_comp4 is 0.4931890351534556
+The correlation between two columns failure_comp4 and error1 is 0.0018678089122606584
+The correlation between two columns failure_comp4 and error2 is -0.0004803310912632602
+The correlation between two columns failure_comp4 and error3 is -0.0004423306348048918
+The correlation between two columns failure_comp4 and error4 is -0.00041196913353542733
+The correlation between two columns failure_comp4 and error5 is -0.00028822421162124533
+The correlation between two columns failure_comp4 and failure is 0.49880196886938394
+The correlation between two columns failure_comp4 and maint is 0.2825186773307301
+The correlation between two columns failure_comp4 and error is 0.0003253661859542084
+
+Description of the data column maint_comp1:
+count    876100.000000
+mean          0.000804
+std           0.028336
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+max           1.000000
+Name: maint_comp1, dtype: float64
+The correlation between two columns maint_comp1 and datetime is 0.0008925785865048077
+The correlation between two columns maint_comp1 and machineID is 0.0006893673006046386
+The correlation between two columns maint_comp1 and volt is 0.009170169734397729
+The correlation between two columns maint_comp1 and rotate is 0.0008069841910259924
+The correlation between two columns maint_comp1 and pressure is 0.002260899040230769
+The correlation between two columns maint_comp1 and vibration is 0.0030306899571075226
+The correlation between two columns maint_comp1 and age is 0.0008203478701027917
+The correlation between two columns maint_comp1 and anomaly is 0.14271838939162054
+The correlation between two columns maint_comp1 and failure_comp1 is 0.49758811782451456
+The correlation between two columns maint_comp1 and failure_comp2 is 0.08152305034609969
+The correlation between two columns maint_comp1 and failure_comp3 is 0.06554252689511797
+The correlation between two columns maint_comp1 and failure_comp4 is 0.08414727829109359
+The correlation between two columns maint_comp1 and maint_comp1 is 1.0
+The correlation between two columns maint_comp1 and maint_comp2 is 0.16985946191273807
+The correlation between two columns maint_comp1 and maint_comp3 is 0.15937989395968966
+The correlation between two columns maint_comp1 and maint_comp4 is 0.15762556920488716
+The correlation between two columns maint_comp1 and error1 is 0.001410723233362063
+The correlation between two columns maint_comp1 and error2 is 0.0002473396725985002
+The correlation between two columns maint_comp1 and error3 is -0.0008774795888890912
+The correlation between two columns maint_comp1 and error4 is 0.00058169756601514
+The correlation between two columns maint_comp1 and error5 is 0.0014269490195568898
+The correlation between two columns maint_comp1 and failure is 0.34945603188770463
+The correlation between two columns maint_comp1 and maint is 0.5700275606744385
+The correlation between two columns maint_comp1 and error is 0.001315878216202821
+
+Description of the data column maint_comp2:
+count    876100.000000
+mean          0.000871
+std           0.029498
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+max           1.000000
+Name: maint_comp2, dtype: float64
+The correlation between two columns maint_comp2 and datetime is 0.000980597671029076
+The correlation between two columns maint_comp2 and machineID is -0.0008867317833317771
+The correlation between two columns maint_comp2 and volt is -0.0009729627409989927
+The correlation between two columns maint_comp2 and rotate is -0.0129540097267198
+The correlation between two columns maint_comp2 and pressure is 0.0019070759647419988
+The correlation between two columns maint_comp2 and vibration is 0.0006589709671655659
+The correlation between two columns maint_comp2 and age is 0.0007052200033692597
+The correlation between two columns maint_comp2 and anomaly is 0.17168671159612992
+The correlation between two columns maint_comp2 and failure_comp1 is 0.09628496561995362
+The correlation between two columns maint_comp2 and failure_comp2 is 0.5757028578663596
+The correlation between two columns maint_comp2 and failure_comp3 is 0.07242557714102968
+The correlation between two columns maint_comp2 and failure_comp4 is 0.06996910687131695
+The correlation between two columns maint_comp2 and maint_comp1 is 0.16985946191273807
+The correlation between two columns maint_comp2 and maint_comp2 is 1.0
+The correlation between two columns maint_comp2 and maint_comp3 is 0.17209802424967582
+The correlation between two columns maint_comp2 and maint_comp4 is 0.18531971166863248
+The correlation between two columns maint_comp2 and error1 is -0.0010030185205072595
+The correlation between two columns maint_comp2 and error2 is -0.000992021942883066
+The correlation between two columns maint_comp2 and error3 is 0.00033819587661288304
+The correlation between two columns maint_comp2 and error4 is -0.000850834825584286
+The correlation between two columns maint_comp2 and error5 is 0.0013246852243665504
+The correlation between two columns maint_comp2 and failure is 0.4248025706557262
+The correlation between two columns maint_comp2 and maint is 0.5934531363624685
+The correlation between two columns maint_comp2 and error is -0.0006935915588449185
+
+Description of the data column maint_comp3:
+count    876100.000000
+mean          0.000808
+std           0.028416
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+max           1.000000
+Name: maint_comp3, dtype: float64
+The correlation between two columns maint_comp3 and datetime is 0.0014019805758004715
+The correlation between two columns maint_comp3 and machineID is 0.0008112654450059078
+The correlation between two columns maint_comp3 and volt is 0.0014884823596759565
+The correlation between two columns maint_comp3 and rotate is 0.00016166843467090613
+The correlation between two columns maint_comp3 and pressure is 0.010990142283192688
+The correlation between two columns maint_comp3 and vibration is -3.2891281935555377e-06
+The correlation between two columns maint_comp3 and age is 0.00013344323540718026
+The correlation between two columns maint_comp3 and anomaly is 0.11596164791991762
+The correlation between two columns maint_comp3 and failure_comp1 is 0.07827517238149324
+The correlation between two columns maint_comp3 and failure_comp2 is 0.09297255650768059
+The correlation between two columns maint_comp3 and failure_comp3 is 0.4201519453131263
+The correlation between two columns maint_comp3 and failure_comp4 is 0.0558025729355285
+The correlation between two columns maint_comp3 and maint_comp1 is 0.15937989395968968
+The correlation between two columns maint_comp3 and maint_comp2 is 0.17209802424967582
+The correlation between two columns maint_comp3 and maint_comp3 is 1.0
+The correlation between two columns maint_comp3 and maint_comp4 is 0.15294368227755303
+The correlation between two columns maint_comp3 and error1 is -0.0009661613687175643
+The correlation between two columns maint_comp3 and error2 is -0.0009555688738918371
+The correlation between two columns maint_comp3 and error3 is -0.0008799709081432621
+The correlation between two columns maint_comp3 and error4 is 0.0005754230121448066
+The correlation between two columns maint_comp3 and error5 is -0.0005733921670632222
+The correlation between two columns maint_comp3 and failure is 0.2867437291950643
+The correlation between two columns maint_comp3 and maint is 0.5716459694161364
+The correlation between two columns maint_comp3 and error is -0.0012043104255737246
+
+Description of the data column maint_comp4:
+count    876100.000000
+mean          0.000812
+std           0.028476
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+max           1.000000
+Name: maint_comp4, dtype: float64
+The correlation between two columns maint_comp4 and datetime is 0.00036459017540409455
+The correlation between two columns maint_comp4 and machineID is -0.001561480106862034
+The correlation between two columns maint_comp4 and volt is 0.0019081844787818697
+The correlation between two columns maint_comp4 and rotate is -0.0023637761189372617
+The correlation between two columns maint_comp4 and pressure is 0.0019392954434029144
+The correlation between two columns maint_comp4 and vibration is 0.012578727532249322
+The correlation between two columns maint_comp4 and age is -0.0007265425646413939
+The correlation between two columns maint_comp4 and anomaly is 0.1437092203797585
+The correlation between two columns maint_comp4 and failure_comp1 is 0.08893995982123956
+The correlation between two columns maint_comp4 and failure_comp2 is 0.12075360985969597
+The correlation between two columns maint_comp4 and failure_comp3 is 0.05210302898333327
+The correlation between two columns maint_comp4 and failure_comp4 is 0.49318903515345563
+The correlation between two columns maint_comp4 and maint_comp1 is 0.15762556920488716
+The correlation between two columns maint_comp4 and maint_comp2 is 0.18531971166863248
+The correlation between two columns maint_comp4 and maint_comp3 is 0.15294368227755303
+The correlation between two columns maint_comp4 and maint_comp4 is 0.9999999999999999
+The correlation between two columns maint_comp4 and error1 is 0.001394234895017898
+The correlation between two columns maint_comp4 and error2 is 0.0002366923017240302
+The correlation between two columns maint_comp4 and error3 is -0.0008818347935599821
+The correlation between two columns maint_comp4 and error4 is -0.0008213057998674648
+The correlation between two columns maint_comp4 and error5 is -0.0005746066814163353
+The correlation between two columns maint_comp4 and failure is 0.35332394072984397
+The correlation between two columns maint_comp4 and maint is 0.572856785110238
+The correlation between two columns maint_comp4 and error is 4.090799534311703e-05
+
+Description of the data column error1:
+count    876100.000000
+mean          0.001153
+std           0.033934
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+max           1.000000
+Name: error1, dtype: float64
+The correlation between two columns error1 and datetime is -0.0024904815055439354
+The correlation between two columns error1 and machineID is 0.001013781925593839
+The correlation between two columns error1 and volt is 0.008499326399207625
+The correlation between two columns error1 and rotate is -0.0018217027023597345
+The correlation between two columns error1 and pressure is 0.0008688844671843201
+The correlation between two columns error1 and vibration is 9.500923944617847e-05
+The correlation between two columns error1 and age is -0.0036034243855611837
+The correlation between two columns error1 and anomaly is 0.48193732644119397
+The correlation between two columns error1 and failure_comp1 is 0.0017694246553838573
+The correlation between two columns error1 and failure_comp2 is -0.0005842134787501759
+The correlation between two columns error1 and failure_comp3 is -0.0004154565455463539
+The correlation between two columns error1 and failure_comp4 is 0.0018678089122606582
+The correlation between two columns error1 and maint_comp1 is 0.001410723233362063
+The correlation between two columns error1 and maint_comp2 is -0.0010030185205072595
+The correlation between two columns error1 and maint_comp3 is -0.0009661613687175642
+The correlation between two columns error1 and maint_comp4 is 0.001394234895017898
+The correlation between two columns error1 and error1 is 1.0
+The correlation between two columns error1 and error2 is 0.010884940487392027
+The correlation between two columns error1 and error3 is 0.012006199026039626
+The correlation between two columns error1 and error4 is 0.0036935954304681113
+The correlation between two columns error1 and error5 is 0.010997942828642445
+The correlation between two columns error1 and failure is 0.00020099282462245123
+The correlation between two columns error1 and maint is 0.00034324537433390914
+The correlation between two columns error1 and error is 0.5277142858378449
+
+Description of the data column error2:
+count    876100.000000
+mean          0.001128
+std           0.033563
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+max           1.000000
+Name: error2, dtype: float64
+The correlation between two columns error2 and datetime is 0.0014738895670135573
+The correlation between two columns error2 and machineID is -0.00045005481233191655
+The correlation between two columns error2 and volt is 0.0007184375819248968
+The correlation between two columns error2 and rotate is -0.011124115549965789
+The correlation between two columns error2 and pressure is -0.00016267378814907856
+The correlation between two columns error2 and vibration is -0.0012529491778675368
+The correlation between two columns error2 and age is 0.0006825527070568189
+The correlation between two columns error2 and anomaly is 0.476653614214687
+The correlation between two columns error2 and failure_comp1 is -0.0004974712885578421
+The correlation between two columns error2 and failure_comp2 is -0.000577808463551685
+The correlation between two columns error2 and failure_comp3 is -0.0004109016943056646
+The correlation between two columns error2 and failure_comp4 is -0.0004803310912632602
+The correlation between two columns error2 and maint_comp1 is 0.0002473396725985002
+The correlation between two columns error2 and maint_comp2 is -0.0009920219428830662
+The correlation between two columns error2 and maint_comp3 is -0.0009555688738918372
+The correlation between two columns error2 and maint_comp4 is 0.00023669230172403016
+The correlation between two columns error2 and error1 is 0.010884940487392027
+The correlation between two columns error2 and error2 is 1.0
+The correlation between two columns error2 and error3 is 0.28059900496356344
+The correlation between two columns error2 and error4 is 0.0037560068054956026
+The correlation between two columns error2 and error5 is 0.022946780590388825
+The correlation between two columns error2 and failure is -0.0009629695174459423
+The correlation between two columns error2 and maint is -0.0003010274537498395
+The correlation between two columns error2 and error is 0.5219286986438233
+
+Description of the data column error3:
+count    876100.000000
+mean          0.000957
+std           0.030913
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+max           1.000000
+Name: error3, dtype: float64
+The correlation between two columns error3 and datetime is -0.0010413137202982229
+The correlation between two columns error3 and machineID is 0.0010130863742394776
+The correlation between two columns error3 and volt is 0.001997438645239526
+The correlation between two columns error3 and rotate is -0.014715960538220238
+The correlation between two columns error3 and pressure is 0.00043365385711550703
+The correlation between two columns error3 and vibration is 0.0007654892237796678
+The correlation between two columns error3 and age is -0.00045961652065303944
+The correlation between two columns error3 and anomaly is 0.43894409417290964
+The correlation between two columns error3 and failure_comp1 is -0.0004581148188560749
+The correlation between two columns error3 and failure_comp2 is 0.0016157347742758045
+The correlation between two columns error3 and failure_comp3 is -0.0003783940090294933
+The correlation between two columns error3 and failure_comp4 is -0.0004423306348048918
+The correlation between two columns error3 and maint_comp1 is -0.0008774795888890912
+The correlation between two columns error3 and maint_comp2 is 0.0003381958766128831
+The correlation between two columns error3 and maint_comp3 is -0.0008799709081432621
+The correlation between two columns error3 and maint_comp4 is -0.0008818347935599821
+The correlation between two columns error3 and error1 is 0.012006199026039626
+The correlation between two columns error3 and error2 is 0.28059900496356344
+The correlation between two columns error3 and error3 is 1.0
+The correlation between two columns error3 and error4 is 0.005519926078876081
+The correlation between two columns error3 and error5 is 0.02502552940367663
+The correlation between two columns error3 and failure is 0.0004026494599043409
+The correlation between two columns error3 and maint is -0.0007953268238693112
+The correlation between two columns error3 and error is 0.4806373286951785
+
+Description of the data column error4:
+count    876100.000000
+mean          0.000830
+std           0.028795
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+max           1.000000
+Name: error4, dtype: float64
+The correlation between two columns error4 and datetime is 0.0010772104391886294
+The correlation between two columns error4 and machineID is 0.0008575925558436075
+The correlation between two columns error4 and volt is 0.0007107557988875971
+The correlation between two columns error4 and rotate is -0.0013156658431563457
+The correlation between two columns error4 and pressure is 0.010581647404812529
+The correlation between two columns error4 and vibration is -0.00034442119767579964
+The correlation between two columns error4 and age is 0.0008848899453315646
+The correlation between two columns error4 and anomaly is 0.4088150444896872
+The correlation between two columns error4 and failure_comp1 is -0.00042666989381624483
+The correlation between two columns error4 and failure_comp2 is -0.000495573275202321
+The correlation between two columns error4 and failure_comp3 is -0.00035242110712871525
+The correlation between two columns error4 and failure_comp4 is -0.0004119691335354273
+The correlation between two columns error4 and maint_comp1 is 0.0005816975660151399
+The correlation between two columns error4 and maint_comp2 is -0.0008508348255842861
+The correlation between two columns error4 and maint_comp3 is 0.0005754230121448067
+The correlation between two columns error4 and maint_comp4 is -0.0008213057998674649
+The correlation between two columns error4 and error1 is 0.0036935954304681113
+The correlation between two columns error4 and error2 is 0.0037560068054956026
+The correlation between two columns error4 and error3 is 0.005519926078876081
+The correlation between two columns error4 and error4 is 1.0
+The correlation between two columns error4 and error5 is 0.007286450614886333
+The correlation between two columns error4 and failure is -0.000825917216143399
+The correlation between two columns error4 and maint is -0.0006349321000450841
+The correlation between two columns error4 and error is 0.44764646232265876
+
+Description of the data column error5:
+count    876100.000000
+mean          0.000406
+std           0.020154
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+max           1.000000
+Name: error5, dtype: float64
+The correlation between two columns error5 and datetime is -0.0015754997139242122
+The correlation between two columns error5 and machineID is 0.0004512597418424522
+The correlation between two columns error5 and volt is 0.0015730296608261634
+The correlation between two columns error5 and rotate is -0.003387349161200138
+The correlation between two columns error5 and pressure is -0.0002447124889610761
+The correlation between two columns error5 and vibration is 0.01828508587339317
+The correlation between two columns error5 and age is 0.008518387094960478
+The correlation between two columns error5 and anomaly is 0.2860175297254883
+The correlation between two columns error5 and failure_comp1 is 0.0035276252806762027
+The correlation between two columns error5 and failure_comp2 is -0.0003467158214499257
+The correlation between two columns error5 and failure_comp3 is -0.00024656287933310885
+The correlation between two columns error5 and failure_comp4 is -0.0002882242116212454
+The correlation between two columns error5 and maint_comp1 is 0.0014269490195568898
+The correlation between two columns error5 and maint_comp2 is 0.0013246852243665504
+The correlation between two columns error5 and maint_comp3 is -0.0005733921670632221
+The correlation between two columns error5 and maint_comp4 is -0.0005746066814163354
+The correlation between two columns error5 and error1 is 0.010997942828642445
+The correlation between two columns error5 and error2 is 0.022946780590388828
+The correlation between two columns error5 and error3 is 0.02502552940367663
+The correlation between two columns error5 and error4 is 0.007286450614886332
+The correlation between two columns error5 and error5 is 1.0
+The correlation between two columns error5 and failure is 0.0013999430091576337
+The correlation between two columns error5 and maint is 0.0001381716202703018
+The correlation between two columns error5 and error is 0.3131849893237274
+
+Description of the data column failure:
+count     876100
+unique         2
+top        False
+freq      875381
+Name: failure, dtype: object
+The correlation between two columns failure and datetime is -0.00224896500723813
+The correlation between two columns failure and machineID is 0.0018358520435346258
+The correlation between two columns failure and volt is 0.008613176490006131
+The correlation between two columns failure and rotate is -0.01335148993265915
+The correlation between two columns failure and pressure is 0.011829882843132513
+The correlation between two columns failure and vibration is 0.014327810615974837
+The correlation between two columns failure and age is 0.006071933676995228
+The correlation between two columns failure and anomaly is 0.40655763824440805
+The correlation between two columns failure and failure_comp1 is 0.5166012833690187
+The correlation between two columns failure and failure_comp2 is 0.6000277818597647
+The correlation between two columns failure and failure_comp3 is 0.42670270123964144
+The correlation between two columns failure and failure_comp4 is 0.4988019688693839
+The correlation between two columns failure and maint_comp1 is 0.3494560318877046
+The correlation between two columns failure and maint_comp2 is 0.4248025706557262
+The correlation between two columns failure and maint_comp3 is 0.28674372919506436
+The correlation between two columns failure and maint_comp4 is 0.35332394072984397
+The correlation between two columns failure and error1 is 0.00020099282462245123
+The correlation between two columns failure and error2 is -0.0009629695174459423
+The correlation between two columns failure and error3 is 0.00040264945990434083
+The correlation between two columns failure and error4 is -0.0008259172161433991
+The correlation between two columns failure and error5 is 0.001399943009157634
+The correlation between two columns failure and failure is 1.0
+The correlation between two columns failure and maint is 0.5624188677547761
+The correlation between two columns failure and error is 2.0151214117439718e-05
+
+Description of the data column maint:
+count     876100
+unique         2
+top        False
+freq      873937
+Name: maint, dtype: object
+The correlation between two columns maint and datetime is 0.0014910628056145775
+The correlation between two columns maint and machineID is 5.936087426587821e-05
+The correlation between two columns maint and volt is 0.004369162035701104
+The correlation between two columns maint and rotate is -0.006171409038495683
+The correlation between two columns maint and pressure is 0.006958674451874066
+The correlation between two columns maint and vibration is 0.006701336207537353
+The correlation between two columns maint and age is 0.0004981206767422827
+The correlation between two columns maint and anomaly is 0.22831793308823284
+The correlation between two columns maint and failure_comp1 is 0.2836156333605723
+The correlation between two columns maint and failure_comp2 is 0.34164624717805997
+The correlation between two columns maint and failure_comp3 is 0.24016878642230274
+The correlation between two columns maint and failure_comp4 is 0.2825186773307301
+The correlation between two columns maint and maint_comp1 is 0.5700275606744386
+The correlation between two columns maint and maint_comp2 is 0.5934531363624687
+The correlation between two columns maint and maint_comp3 is 0.5716459694161364
+The correlation between two columns maint and maint_comp4 is 0.572856785110238
+The correlation between two columns maint and error1 is 0.0003432453743339092
+The correlation between two columns maint and error2 is -0.0003010274537498395
+The correlation between two columns maint and error3 is -0.0007953268238693113
+The correlation between two columns maint and error4 is -0.0006349321000450841
+The correlation between two columns maint and error5 is 0.0001381716202703018
+The correlation between two columns maint and failure is 0.5624188677547761
+The correlation between two columns maint and maint is 1.0
+The correlation between two columns maint and error is -0.0003327513483606817
+
+Description of the data column error:
+count     876100
+unique         2
+top        False
+freq      872484
+Name: error, dtype: object
+The correlation between two columns error and datetime is -0.0010703191244968975
+The correlation between two columns error and machineID is 0.0013809357910869896
+The correlation between two columns error and volt is 0.005720981477998828
+The correlation between two columns error and rotate is -0.008399454197750534
+The correlation between two columns error and pressure is 0.004702262314663217
+The correlation between two columns error and vibration is 0.004467817157623413
+The correlation between two columns error and age is 0.0011356175814092842
+The correlation between two columns error and anomaly is 0.9132542729557362
+The correlation between two columns error and failure_comp1 is 0.0014523901812744497
+The correlation between two columns error and failure_comp2 is -7.144925955517679e-05
+The correlation between two columns error and failure_comp3 is -0.0007872755327947188
+The correlation between two columns error and failure_comp4 is 0.0003253661859542084
+The correlation between two columns error and maint_comp1 is 0.001315878216202821
+The correlation between two columns error and maint_comp2 is -0.0006935915588449186
+The correlation between two columns error and maint_comp3 is -0.0012043104255737246
+The correlation between two columns error and maint_comp4 is 4.0907995343117036e-05
+The correlation between two columns error and error1 is 0.5277142858378447
+The correlation between two columns error and error2 is 0.5219286986438233
+The correlation between two columns error and error3 is 0.4806373286951785
+The correlation between two columns error and error4 is 0.44764646232265876
+The correlation between two columns error and error5 is 0.3131849893237274
+The correlation between two columns error and failure is 2.0151214117439718e-05
+The correlation between two columns error and maint is -0.0003327513483606817
+The correlation between two columns error and error is 1.0
+
